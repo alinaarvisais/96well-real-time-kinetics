@@ -77,9 +77,9 @@ test_data <- make_test_data_tables(test_identifiers, export = TRUE)
 ##    name should be the substrate name or enzyme it relates to, match the
 ##    formatting used in the test_identifiers
 
-b1 <- list("substrate", "malt", list("C1", "C2", "C3"))
+b1 <- list("substrate", "malt", list("E10", "E11", "E12"))
 
-b2 <- list("enzyme", "NtSI", list("C1", "C2", "C3"))
+b2 <- list("enzyme", "NtSI", list("F10", "F11", "F12"))
 
 blanks <- list(b1, b2) # add as many or as few as required
 
